@@ -1,2 +1,2 @@
 # JavaScript
-Basic JS
+Basic JS - https://juveriad.github.io/JavaScript/
