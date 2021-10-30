@@ -1,0 +1,32 @@
+$bg-about: #f3f3f3;
+$about: #616161;
+$white: rgb(255, 255, 255);
+$shadow: rgba(0, 0, 0, 0.2);
+$hover-effect: rgb(255, 255, 241);
+$border: #a1a1a1;
+$sale-bg-sec3: #f9a190;
+$black: rgb(0, 0, 0);
+$p-about: #2f2f30;
+$footer: rgb(97, 157, 248);
+
+@import "blogfile";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+footer {
+  padding: 8px 5%;
+  text-align: center;
+  background-color: $black;
+  color: $hover-effect;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  a {
+    color: $footer;
+    text-decoration: none;
+  }
+}
+@import "mediaqueries";
