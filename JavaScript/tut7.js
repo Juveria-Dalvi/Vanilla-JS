@@ -58,62 +58,63 @@ console.log(`Tutorial-7`);
 // 	console.log(`My age is not 18`);
 // }
 
-
 //* example - 7 ,to  check if variable is dfined or not defined
 // if (typeof programmingLang !== 'undefined') {
 // 	console.log(`programmingLang is defined`);
-	
+
 // } else {
 // 	console.log(`programmingLang is not defined`);
-	
+
 // }
 
 //* example - 8 boolean variable with if-else
 // const doesDrive= false;
 // if (doesDrive) {
 // 	console.log(`You can drive`);
-	
+
 // } else {
 // 	console.log(`You cannot drive`);
-	
+
 // }
 
 //* example - 9 boolean variable with && and ||,[AND , OR]
-// 1- AND(&&)	
-	// const doesDrive= true;
-	// 	const age = 14;
-	// 	if (doesDrive && age>18) {
-	// 		console.log(`You can drive`);
-			
-	// 	} else {
-	// 		console.log(`You cannot drive`);	
-	// 	}
+// 1- AND(&&)
+// const doesDrive= true;
+// 	const age = 14;
+// 	if (doesDrive && age>18) {
+// 		console.log(`You can drive`);
+
+// 	} else {
+// 		console.log(`You cannot drive`);
+// 	}
 
 // 2 - OR(||)
-	// const doesDrive= false;
-	// const age = 54;
-	// if (doesDrive || age>18) {
-	// 	console.log(`You can drive`);
-		
-	// } else {
-	// 	console.log(`You cannot drive`);
-	// }
+// const doesDrive= false;
+// const age = 54;
+// if (doesDrive || age>18) {
+// 	console.log(`You can drive`);
+
+// } else {
+// 	console.log(`You cannot drive`);
+// }
 
 //! Exercise-1 (use 3 conditions with && and || operator)
 
 let myName = `Juveria Dalvi`;
 let myShortName = `DJ`;
 //* If Atlest ONE Condition is True this console will work fine
-if (myName===`Juveria` || myShortName === `JD` ) {
+if (myName === `Juveria` || myShortName === `JD`) {
 	console.log(`Your Name and nickname are unique`);
-
-} 
-//* If Both Condition is True this console will work fine
- if (myName===`Juveria Dalvi` && myShortName === `DJ`) {
-	console.log(`Hii DJ, your name and nickname matches `);
-	
-} 
-//* IF && and || conditions does not matches 
-else {
-		console.log(`Please Enter your Name:  `);
 }
+//* If Both Condition is True this console will work fine
+if (myName === `Juveria Dalvi` && myShortName === `DJ`) {
+	console.log(`Hii DJ, your name and nickname matches `);
+}
+//* IF && and || conditions does not matches
+else {
+	console.log(`Please Enter your Name:  `);
+}
+
+//* example - 10  Terneray Operator [condition? 'true' : 'false']
+// console.log(
+// 	age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
