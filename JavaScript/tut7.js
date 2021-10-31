@@ -115,7 +115,7 @@ else {
 	console.log(`Please Enter your Name:  `);
 }
 
-//* example :-  Terneray Operator [condition? 'true' : 'false']
+//* example :- Terneray Operator [condition? 'true' : 'false']
 // console.log(
 // 	age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
 
