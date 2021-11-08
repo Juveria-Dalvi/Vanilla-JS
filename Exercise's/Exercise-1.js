@@ -11,6 +11,8 @@ console.log('Exercise-1');
 //? 3.. 🚀  use upperCaseMethod to convert return string from charAt
 
 //? 4.. 🚀  use slice or substring method then use concatenation method to combine & output the result
+
+//? 5..🚀   only create one variable const str = 'learning' and output the result in one line DONOT create another variable
 // ********************** ANSWER BELOW **********************
 //!created string in lowercase
 const myVar1 = 'ball';
@@ -36,8 +38,6 @@ console.log(myVar3);
 output = myVar2.concat(myVar3);
 console.log(output);
 
-//! only create one variable const str = 'learning'
-//! n output the result in one line n koii variable create nii krna ok ic str k ilawa
-
+// ********************** RIGHT ANSWER BELOW **********************
 const str = 'learning';
 console.log(str.charAt(0).toUpperCase() + str.substring(1));
