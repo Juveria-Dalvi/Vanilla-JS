@@ -47,3 +47,64 @@ console.log(myNum3.toFixed(2), typeof myNum3);
 let myStr1 = Number(`123`);
 let myStr2 = 20;
 console.log(myStr1 + myStr2);
+
+
+//? type Conversions 
+
+//* Converting Strings to Numbers
+Number("3.14")  //! returns 3.14
+Number(" ")     //! returns 0
+Number("")      //! returns 0
+Number("99 88") //! returns NaN
+Number()        //! Returns a number, converted from its argument
+parseFloat()    //! Parses a string and returns a floating point number
+parseInt()	    //! Parses a string and returns an integer  
+
+
+//* Converting Numbers to Strings
+String('')          //! returns a string from a number variable x
+String(123)         //! returns a string from a number literal 123
+String(100 + 23)    //! returns a string from a number from an expression
+(123).toString()    //! toString() will convert number into string 123
+(100 + 23).toString()//! toString() will convert number into string 10023
+                    //! Converting Dates to Numbers
+                    //! Converting Numbers to Datescal not
+                    //! Converting Booleans to Numbers
+                    //! Converting Numbers to Booleans
+
+const digit = " "
+const text = 123
+//* NAN = not a number 
+// console.log(Number(digit))
+// console.log(parseInt(digit))
+// console.log(parseFloat(digit))
+
+// console.log(String(100 + 23))
+// console.log(text.toString())
+
+//* javascript operators 
+
+//!JavaScript Comparison Operators
+//* (==) equal to
+//* (===) equal value and equal type
+//* (!=) not equal
+//* (!==) not equal value or not equal type
+//* (>) greater than
+//* (<) less than
+//* (>=) greater than or equal to
+//* (<=) less than or equal to
+//* (?) ternary operator
+
+
+/* 
+JavaScript Logical Operators
+&&	logical and
+||	logical or
+!	logical not
+*/
+
+/* 
+JavaScript Logical Operators
+&&	logical and
+||	logical or
+*/

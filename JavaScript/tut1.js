@@ -1,4 +1,4 @@
-//? VIDEO_1 - CONSOLE LOG , ERROR , WARNINGS AND MORE
+//? VIDEO_1 - CONSOLE LOG , ERROR , WARNINGS, POPUP BOXES AND MORE
 
 //* time start
 // console.time('Your code took');
@@ -44,6 +44,20 @@
 
 //* will clear console
 // console.clear();
+
+//? JavaScript Popup Boxes
+//? JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
+
+//? Alert Box
+//* alert('Visit this site with caution')
+
+//?  => A confirm box is often used if you want the user to verify or accept something.
+//? return boolean true/false
+//* const deleteConfirmation = confirm('are u sure you want to delete this items?')
+
+//? Prompt Box
+//* const user = prompt('please enter your name?');
+//* console.log('user:', typeof Number(user))
 
 // -----------------
 // Variables in javascript;
