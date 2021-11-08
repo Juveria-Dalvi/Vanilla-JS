@@ -24,7 +24,7 @@
 	marks: 43
 });*/
 
-//* Table in object
+//*  Table in object
 /*console.table({
 	harry: 'world',
 	marks: 43
