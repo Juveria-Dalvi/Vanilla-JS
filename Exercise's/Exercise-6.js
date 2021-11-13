@@ -1,7 +1,7 @@
-//****************************************** Exercise-6********************************************
+//********************* Exercise-6*************************
 //! create if else condition with logical operators (use 3 conditions with && and || operator)
 
-// *********************************************ANSWER BELOW******************************************
+// *********************ANSWER BELOW***********************
 
 let myName = `Juveria Dalvi`;
 let myShortName = `DJ`;
