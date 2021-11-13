@@ -104,10 +104,7 @@ JavaScript Logical Operators
 */
 
 /* 
-JavaScript Logical Operators
-&&	logical and
-||	logical or
-*/
+
 
 //! Operators in JavaScript
 // Operand - entities on which operators operate
