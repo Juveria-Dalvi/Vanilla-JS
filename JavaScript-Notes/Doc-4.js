@@ -103,7 +103,7 @@ JavaScript Logical Operators
 !	logical not
 */
 
-/* 
+
 
 
 //! Operators in JavaScript
