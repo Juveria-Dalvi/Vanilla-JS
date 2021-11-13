@@ -1,8 +1,8 @@
-//?VIDEO_3 - DATA TYPES IN JAVASCRIPT(Primitive & Reference Types)
+//! Note : 3 - DATA TYPES IN JAVASCRIPT(Primitive & Reference Types)
 var tut3 = `Tutorial-3`;
 console.log(`This is ` + tut3);
 
-//!Primitive Data Types -   1.String , 2.Number, 3.Boolean, 4.Null, 5.Undefined, 6.Symbol.
+//? Primitive Data Types -   1.String , 2.Number, 3.Boolean, 4.Null, 5.Undefined, 6.Symbol.
 
 //*String with 'typeof' operator
 let isMyname = `DJ`;
@@ -24,7 +24,7 @@ console.log(`My Data Type is ` + typeof myNull);
 let undef = undefined;
 console.log(`My Data Type is ` + typeof undef);
 
-//!Reference Data Types -   1.Arrays, 2.Object-literals, 3.Functions, 4.Dates.
+//? Reference Data Types -   1.Arrays, 2.Object-literals, 3.Functions, 4.Dates.
 
 //*Array
 let myArr1 = [23, 34, 76, `DJ`, 'FEM', 'mixedarray', true];

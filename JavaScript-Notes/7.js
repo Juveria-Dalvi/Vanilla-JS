@@ -1,4 +1,4 @@
-//? VIDEO_7 - IF/ELSE CONDITIONALS & SWITCHES IN JAVASCRIPT
+//! Note : 7 - IF/ELSE CONDITIONALS & SWITCHES IN JAVASCRIPT
 console.log(`Tutorial-7`);
 
 //* example :- 1

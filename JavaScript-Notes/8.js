@@ -1,4 +1,4 @@
-//? VIDEO_8 - General Loops -For, While and Do While LOOPS IN JAVASCRIPT
+//! Note : 8 - General Loops -For, While and Do While LOOPS IN JAVASCRIPT
 console.log(`Tutorial-8`);
 
 //* For loop

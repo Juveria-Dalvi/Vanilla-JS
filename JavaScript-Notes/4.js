@@ -1,23 +1,23 @@
-//? VIDEO_4 - TYPE CONVERSION AND TYPE COERCION & OPERATORS
+//! Note : 4 - TYPE CONVERSION AND TYPE COERCION & OPERATORS
 console.log(`Tutorial-4`);
 
-//?TYPE CONVERSION
+//? TYPE CONVERSION
 
 //* String() function
 let myVar = String(20);
-// console.log(myVar, typeof myVar);
+console.log(myVar, typeof myVar);
 
 let booleanVar = String(true);
-// console.log(booleanVar, typeof booleanVar);
+console.log(booleanVar, typeof booleanVar);
 
 let date = String(new Date());
-// console.log(date, typeof date);
+console.log(date, typeof date);
 
 let arr = String([1, 2, 3, 4, 5]);
-// console.log(arr.length, typeof arr);
+console.log(arr.length, typeof arr);
 
-//!Type ARRAY LENGTH = ELEMENT'S IN ARRAY(everything including comma(,))
-//!Type STRING LENGTH = CHARACTER'S IN ARRAY(only characters not commas(,))
+//! Type ARRAY LENGTH = ELEMENT'S IN ARRAY(everything including comma(,))
+//! Type STRING LENGTH = CHARACTER'S IN ARRAY(only characters not commas(,))
 
 //* .toString() function
 let a = 2000;

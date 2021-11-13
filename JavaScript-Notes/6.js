@@ -1,4 +1,4 @@
-//? VIDEO_6 - ARRAYS AND OBJECTS IN JAVASCRIPT
+//! Note : 6 - ARRAYS AND OBJECTS IN JAVASCRIPT
 console.log(`Tutorial-6`);
 //! ARRAYS methods and properties
 
@@ -42,17 +42,15 @@ let arrElement = arr[4];
 // marks = marks.concat(marks2);
 // console.log(marks);
 
-
 //! OBJECT'S methods and properties
 
 let myObj = {
-   'Full Name':`Juveria Dalvi`,
-    Course: `JavaScript`,
-    Tutor: `Haris Khan`,
-    'My progress': true,
-    languages:[`JavaScript`,`PHP`, `HTML & CSS`, 28]
-}
+	'Full Name': `Juveria Dalvi`,
+	Course: `JavaScript`,
+	Tutor: `Haris Khan`,
+	'My progress': true,
+	languages: [`JavaScript`, `PHP`, `HTML & CSS`, 28]
+};
 console.log(myObj);
-console.log(myObj["Full Name"]);
+console.log(myObj['Full Name']);
 console.log(myObj.Tutor);
-
