@@ -3,8 +3,8 @@
 
 // *********************ANSWER BELOW***********************
 
-let myName = `Juveria Dalvi`;
-let myShortName = `DJ`;
+// let myName = `Juveria Dalvi`;
+// let myShortName = `DJ`;
 //* If Atlest ONE Condition is True this console will work fine
 if (myName === `Juveria` || myShortName === `JD`) {
 	console.log(`Your Name and nickname are unique`);
