@@ -9,8 +9,13 @@ $black: rgb(0, 0, 0);
 $p-about: #2f2f30;
 $footer: rgb(97, 157, 248);
 
+@import "header";
 @import "blogfile";
 
+:root{
+  font-size: 10px;
+
+}
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +27,7 @@ footer {
   background-color: $black;
   color: $hover-effect;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 1rem;
   font-family: "Open Sans", sans-serif;
   a {
     color: $footer;
