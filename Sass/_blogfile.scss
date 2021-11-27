@@ -3,8 +3,18 @@
 	font-family: 'Open Sans', sans-serif;
 
 	h1 {
-		font-weight: 500;
-		margin: 0% 4%;
+		font-size: 2rem;
+		text-decoration:underline;
+		font-weight: bold;
+		margin: 10px auto;
+		display: grid;
+		place-items: center;
+	}
+	.heading--{
+		display: block;
+		border-style:ridge;
+		padding: 5px;
+		background-color: #86848486;
 	}
 
 	#HTML-CSS {
