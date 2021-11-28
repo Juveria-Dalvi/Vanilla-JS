@@ -1,5 +1,5 @@
-//! Note : 5 - STRINGS, PROPERTIES, METHOS AND TEMPLATE LITERALS IN JAVASCRIPT
-console.log(`Tutorial-5`);
+                STRINGS, PROPERTIES, METHOS AND TEMPLATE LITERALS IN JAVASCRIPT
+
 
 const myName = `DJ`;
 const thisGreating = `Good Morning`;

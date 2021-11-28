@@ -1,48 +1,57 @@
-//! Note : 6 - ARRAYS AND OBJECTS IN JAVASCRIPT
-console.log(`Tutorial-6`);
-//! ARRAYS methods and properties
+						 ARRAYS AND OBJECTS IN JAVASCRIPT
+
+
+ 				ARRAYS methods and properties
 
 let marks = [54, 67, 23, 54, 98, 65];
-// console.log(marks);
+console.log(marks);
+
 let valueMarks = marks.indexOf(98);
-// console.log(valueMarks);
+console.log(valueMarks);
 
 const fruits = [`apple, mango, banana, peru, grapes`];
-// console.log(fruits);
+console.log(fruits);
+
 const mixedArray = [`rahul`, 54, true, `54`, [1, 2, 3, 5]];
-// console.log(mixedArray);
+console.log(mixedArray);
 
-//!ARRAY CONSTRUCTOR
+
+					ARRAY CONSTRUCTOR
+
 const arr = new Array(`ball`, `pencil`, 34, 23, `duck`);
-// console.log(arr[0]);
+console.log(arr[0]);
 
-// console.log(arr.length);
-// console.log(Array.isArray(arr));
+console.log(arr.length);
+console.log(Array.isArray(arr));
 arr[`0`] = `juveria`;
-// console.log(arr);
+console.log(arr);
 
 let arrElement = arr[4];
-// console.log('element :', arrElement);
+console.log('element :', arrElement);
 
-//* MUTATING OR MODIFYING ARRAYS
+
+ 					MUTATING OR MODIFYING ARRAYS
+
 //! Below Methods changes original arrays
-// marks.push(2000);
+marks.push(2000);
 
-// marks.unshift(10001);
+marks.unshift(10001);
 
-// marks.pop();
+marks.pop();
 
-// marks.shift();
+marks.shift();
 
-// marks.splice(1, 2);
+marks.splice(1, 2);
 
-// marks.reverse();
+marks.reverse();
 
-// let marks2 = [1, 2, 3, 4];
-// marks = marks.concat(marks2);
-// console.log(marks);
+let marks2 = [1, 2, 3, 4];
+marks = marks.concat(marks2);
+console.log(marks);
 
-//! OBJECT'S methods and properties
+
+					OBJECT'S methods and properties
+
 
 let myObj = {
 	'Full Name': `Juveria Dalvi`,
