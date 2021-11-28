@@ -1,22 +1,28 @@
 		---- IF/ELSE CONDITIONALS & SWITCHES IN JAVASCRIPT ----
 
 
+// Example :
+let num = 37;
+if (num % 2 !==0) {
+	console.log("ODD NUMBER")
+}
+
 //* example :- 1
-const programmingLang = `JavaScript`;
-if (programmingLang == `PHP`) {
-	console.log(`I'm learning PHP`);
+const programmingLang = "JavaScript";
+if (programmingLang == "PHP") {
+	console.log("I'm learning PHP");
 } else {
-	console.log(`I'm Learning JavaScript`);
+	console.log("I'm Learning JavaScript");
 }
 
 //* example :- 2
-const lang = `Python`;
-if (lang == `PHP`) {
-	console.log(`I'm learning PHP`);
-} else if (lang == `Python`) {
-	console.log(`I'm Learning Python`);
+const lang = "Python";
+if (lang == "PHP") {
+	console.log("I'm learning PHP");
+} else if (lang == "Python") {
+	console.log("I'm Learning Python");
 } else {
-	console.log(`I'm Learning JavaScript`);
+	console.log("I'm Learning JavaScript");
 }
 
 //* example :- 3
@@ -138,6 +144,31 @@ console.log(age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45')
 
 
 //* example :- SWITCH STATEMENTS
+// It is case-sensitive
+
+syntax : 
+switch(expression){
+
+	case expression 1:
+		block of statement 1;
+		break;
+	case expression 2:
+		block of statement 2;
+		break;
+	case expression 3:
+		block of statement 3;
+		break;
+	.
+	.
+	.
+	default:
+		default block of instructions;
+}
+
+
+
+Example :
+
 let myAge=18;
 switch (myAge) {
 	case 18:
@@ -149,7 +180,61 @@ switch (myAge) {
 	case 58:
 		console.log(`You are too old!`);
 		break;
-	default:
+
+		default:
 		console.log(`What is your age?`);
-		break;
 }
+
+Example :
+
+let weekdays=prompt("Enter Number between 1-7 to display weekdays");
+switch (myAge) {
+	case 1:
+		document.write("Sunday");
+		break;
+	case 2:
+		document.write("Monday");
+		break;
+	case 3:
+		document.write("Tuesday");
+		break;
+	case 4:
+		document.write("Wednesday");
+		break;
+	case 5:
+		document.write("Thursday");
+		break;
+	case 6:
+		document.write("Friday");
+		break;
+	case 7:
+		document.write("Saturday");
+		break;
+
+		default:
+		document.write("Invalid Number");
+}
+
+Example :
+// if you have same value for multiple statements
+
+var officeDays= "Sunday"
+switch (officeDays) {
+	case "Monday":
+		document.write("Working Day");
+		break;
+	case "Tuesday":
+		document.write("Working Day");
+		break;
+	case "Saturday":
+	case "Sunday":
+		document.write("Holiday");
+		break;
+		default:
+		document.write(Wrong input);
+}
+
+/* NOTE : 
+1] all the statements will be evaluated if you don't use break statements 
+2] expressions are case sensitive
+*/
