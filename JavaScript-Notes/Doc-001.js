@@ -151,3 +151,6 @@
     // Prompt Box
     const user = prompt('please enter your name?');
     console.log('user:', typeof Number(user)); 
+
+    var a = prompt("Enter your name", "NAME");
+    document.write(a);

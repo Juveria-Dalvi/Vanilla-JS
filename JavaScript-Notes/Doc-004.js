@@ -9,3 +9,4 @@ Ex :- var myName="Rahul", myAge=20, Result = true;
 		var myName ="Rahul",
 			myAge = 20,
 			Result = true; //end with semi-colon
+
