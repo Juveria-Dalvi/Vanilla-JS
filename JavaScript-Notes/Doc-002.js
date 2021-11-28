@@ -1,60 +1,72 @@
-//! Note : 1 - CONSOLE LOG , ERROR , WARNINGS, POPUP BOXES AND MORE
+						Identifier in JavaScript 
+/*
+An Identifier is a name having a few letters , numbers and special characters _(underscores).
+It is used to identify a variable , function , symbolic constant and so on.
+*/
 
-//* time start
-console.time('Your code took');
+						Variables in JavaScript
+/* 
+A variable is an identifier or a name which is used to refer a value. A variable is written
+with a combination of letters, numbers and special characters $(dollar) and _(underscore) with the first letter being an alphabet.
+*/
+//!  VARIABLES: let, const & var in JavaScript
+Ex :- 
+var yourName="Harry";
+let $myVariable = "abc";
+const total_amount =10000;
 
-//* String
-console.log('DJ');
+var myName = `juveria dalvi`;
+var course;
+course = `Web Development`;
+var age = 21;
+console.log(myName, course, age);
 
-//* Number
-console.log(20);
+const channel = `CodeWithHarry`;
+//! Cannot re-declare value in "const" variable
+// channel=`Mosh Hamadani`
+console.log(channel);
 
-//* Boolean
-console.log(true);
+//! In const , you Cannot declare variable as undefined it gives error
+const fruits;
 
-//* Array
-console.log([23, 45, 6521, 56]);
+						Declaring Variables
+/*
+A variable declared without a value will have the value undefined
 
-//* Mixed Array
-console.log([23, 45, 'harry', false]);
+*/
+Ex :- 
+		var myClass;
+		let yourclass;
+		const OurSchool;
 
-//* Object
-console.log({
-	harry: 'world',
-	marks: 43
-});
+						Initializing Variables
+/*
+storing a value to the variable or assigning the value in variable
+*/
+Ex :- 
+		var myClass ;
+		myClass = "sixth"; //first declared then initialized
 
-//*  Table in object
-console.table({
-	harry: 'world',
-	marks: 43
-});
+		let yourclass = "first"; // direct Declare & Initialize
 
-//* Warning
-console.warn('This is warning');
+		const RollNumber = 10;// direct Declare & Initialize
 
-//* Error
-console.error('This is an error');
+					Rules for creating Variables
+/*
+1 - Variable can contain combination of letters, digits, underscore(_) and dollar sign($).
+2 - Must begin with letter A-Z/a-z or underscore/dollor.
+3 - A variable name cannot start with a number.
+4 - Must not contain any emptyspace in characters.
+5 - JavaScript is case-sensitive , Uppercase "Dog" !=(not equal too) lowercase "dog".
+6 - Can't use Reserved Keywords.
+*/
+ Google "Reserved Keywords in JavaScript" 
 
-//* Assert
-console.assert(18 < 14, `age < 18 ,You can't drive`);
+ 						MOST COMMOM PROGRAMMING CASE TYPE:
+//* 1. camelCase
+//* 2. kabab-case
+//* 3. snake_case
+//* 4. PascalCase
 
-//* time end
-console.timeEnd('Your code took');
 
-//* will clear console
-console.clear();
 
-//! JavaScript Popup Boxes
-//? JavaScript has three kind of popup boxes: Alert box, Confirm box, and Prompt box.
-
-//* Alert Box
-alert('Visit this site with caution');
-
-//*  => A confirm box is often used if you want the user to verify or accept something.
-//* return boolean true/false
-const deleteConfirmation = confirm('are u sure you want to delete this items?');
-
-//* Prompt Box
-const user = prompt('please enter your name?');
-console.log('user:', typeof Number(user));
