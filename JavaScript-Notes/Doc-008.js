@@ -37,7 +37,7 @@ if (age === 19) {
 }
 
 //* example :- 5
-// const age = 19;
+const age = 19;
 if (age != 18) {
 	console.log(`My age is not 18`);
 }
@@ -79,14 +79,31 @@ if (doesDrive) {
 
 //* example :- boolean variable with && and ||,[AND , OR]
 // 1- AND(&&)
-const doesDrive= true;
-	const age = 14;
-	if (doesDrive && age>18) {
-		console.log(`You can drive`);
 
-	} else {
-		console.log(`You cannot drive`);
+EXAMPLE :
+	const doesDrive= true;
+		const age = 14;
+		if (doesDrive && age>18) {
+			console.log(`You can drive`);
+
+		} else {
+			console.log(`You cannot drive`);
+		}
+// output : You cannot drive
+
+	var a=10;
+	var b= 20;
+	if (a == 10) && (b== 20) {
+		document.write("This will run if both conditions are true");
 	}
+// output : This will run if both conditions are true
+
+	var x = prompt("Enter your roll number : ");
+	if (x== 10) {
+		document.write("Name : Rahul");
+	}
+	// output : Enter your roll number : 10
+	// Name : Rahul 
 
 // 2 - OR(||)
 const doesDrive= false;
@@ -107,7 +124,7 @@ if (myName === `Juveria` || myShortName === `JD`) {
 	console.log(`Your Name and nickname are unique`);
 }
 //* If Both Condition is True this console will work fine
-if (myName === `Juveria Dalvi` && myShortName === `DJ`) {
+else if (myName === `Juveria Dalvi` && myShortName === `DJ`) {
 	console.log(`Hii DJ, your name and nickname matches `);
 }
 //* IF && and || conditions does not matches

@@ -55,15 +55,16 @@ just like the calc
 let myAge = 21.9;
 console.log('My Data Type is ' + typeof myAge);
 
-//*Boolean 
+---- Boolean ----
 let isFemale = true;
 console.log("My Data Type is " + typeof isFemale);
 
-//*Null with 'typeof' operator , null has (bogus/imposter) value
+--- Null ---  
+//  null has (bogus/imposter) value 
 let myNull = null;
 console.log("My Data Type is " + typeof myNull);
 
-//*Undefined with 'typeof' operator
+--- Undefined ---- 
 let undef = undefined;
 console.log("My Data Type is " + typeof undef);
 
@@ -74,11 +75,11 @@ Reference Data Types -
 	3.Functions, 
 	4.Dates.
 
-//*Array
+---- Array ----
 let myArr1 = [23, 34, 76, `DJ`, 'FEM', 'mixedarray', true];
 console.log("My Data Type is " + typeof myArr1);
 
-//*Object-literals
+----- Object-literals ----
 let myMarks = {
 	Juveria: 54,
 	Harry: 87,
@@ -87,11 +88,11 @@ let myMarks = {
 console.log(myMarks);
 console.log("My Data Type is " + typeof myMarks);
 
-//*Functions
+---- Functions ---
 function findName() {}
 console.log("My Data Type is " + typeof findName);
 
-//*Date
+---- Date ----
 let date = new Date();
 console.log("My Data Type is " + typeof date);
 
