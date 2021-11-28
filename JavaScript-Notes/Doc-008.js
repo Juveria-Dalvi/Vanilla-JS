@@ -1,5 +1,5 @@
-//! Note : 7 - IF/ELSE CONDITIONALS & SWITCHES IN JAVASCRIPT
-console.log(`Tutorial-7`);
+		---- IF/ELSE CONDITIONALS & SWITCHES IN JAVASCRIPT ----
+
 
 //* example :- 1
 const programmingLang = `JavaScript`;
@@ -117,8 +117,8 @@ else {
 // ********************************************************
 
 //* example :- TERNARY OPERATOR [condition? 'true' : 'false']
-console.log(
-	age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
+console.log(age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
+
 
 //* example :- SWITCH STATEMENTS
 let myAge=18;

@@ -14,7 +14,8 @@
 // Strings are immutable
 
 
-//*String 
+--------- String -------- 
+
 let isMyname = "DJ";
 console.log('My Data Type is ' + typeof isMyname);
 
@@ -27,9 +28,9 @@ let firstName="Macr oni";
 //will show the number of character in length including spaces and it counts from 1 not 0
 console.log(firstName.length);
 //OUTPUT : 8
-
 firstName[7];//gives the character at 7th index
 //OUTPUT : i
+
 
 let gibberish = 'fsgsrdthauifhiuasgftryetg2143!'
 // finds the length of character -1 from it and returns output as last character
@@ -37,7 +38,20 @@ gibberish[gibberish.length-1]
 //OUTPUT : !
 
 
-//*Number
+------- Numbers --------
+
+/* 
+Numbers can be positive number!, negative numbers! ,
+Whole Numbers (integers)!, Decimal numbers!
+we have all the basic math operations you would expect 
+Ex:
+ 30 - 4 ;
+-110 + 23 * 54;
+4 / 2;
+27 % 2 ;
+just like the calc
+*/
+
 let myAge = 21.9;
 console.log('My Data Type is ' + typeof myAge);
 
@@ -82,7 +96,7 @@ let date = new Date();
 console.log("My Data Type is " + typeof date);
 
 
-						Comments in JAVASCRIPT
+		---- Comments in JAVASCRIPT ------
 			
 	// 2 forward slash for single line comment 
 
@@ -93,12 +107,12 @@ console.log("My Data Type is " + typeof date);
 	line comment
 	*/
 
-					TYPE CONVERSION AND TYPE COERCION & OPERATORS
+		---- TYPE CONVERSION AND TYPE COERCION & OPERATORS ----
 	
 	
-	 TYPE CONVERSION
+	 	---- TYPE CONVERSION ----
 	
-	//* String() function
+	//  String() function
 	let myVar = String(20);
 	console.log(myVar, typeof myVar);
 	
@@ -126,7 +140,9 @@ console.log("My Data Type is " + typeof date);
 	//* true = 1 false = 0
 	// console.log(myNum, typeof myNum);
 	
-	//* parseInt and parseFloat function
+
+		---- parseInt and parseFloat function ----
+
 	let myNum1 = parseInt(`2021.435`);
 	console.log(myNum1, typeof myNum1);
 	
@@ -137,16 +153,18 @@ console.log("My Data Type is " + typeof date);
 	let myNum3 = parseFloat(`2021.435`);
 	console.log(myNum3.toFixed(2), typeof myNum3);
 	
-	//? TYPE COERCION
+
+		---- TYPE COERCION ------
 	
 	let myStr1 = Number(`123`);
 	let myStr2 = 20;
 	console.log(myStr1 + myStr2);
 	
 	
-	//? type Conversions 
+		----- TYPE CONVERSIONS -----
 	
-	//* Converting Strings to Numbers
+	 Converting Strings to Numbers -
+
 	Number("3.14")  //! returns 3.14
 	Number(" ")     //! returns 0
 	Number("")      //! returns 0
@@ -156,7 +174,9 @@ console.log("My Data Type is " + typeof date);
 	parseInt()	    //! Parses a string and returns an integer  
 	
 	
-	//* Converting Numbers to Strings
+	
+	 Converting Numbers to Strings -
+
 	String('')          //! returns a string from a number variable x
 	String(123)         //! returns a string from a number literal 123
 	String(100 + 23)    //! returns a string from a number from an expression

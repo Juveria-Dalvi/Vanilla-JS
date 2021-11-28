@@ -2,7 +2,7 @@
 
 //* javascript operators 
 
-                    JavaScript Comparison Operators
+                JavaScript Comparison Operators
 //* (==) equal to
 //* (===) equal value and equal type
 //* (!=) not equal
@@ -15,16 +15,14 @@
 
 
 
-                    JavaScript Logical Operators
+                 JavaScript Logical Operators
 &&	logical and
 ||	logical or
 !	logical not
 
 
 
-
-
-                         Operators in JavaScript
+                 Operators in JavaScript
 // Operand - entities on which operators operate
 // In 3 + 4 '+' is the operator and 3,4 are operand
 
@@ -41,7 +39,7 @@
 // var num1 = 2;
 // var num2 = 3;
 
-                    ARITHEMATIC OPERATORS in action in JavaScript
+                ARITHEMATIC OPERATORS in action in JavaScript
 //? 1. addition
 //? 2. subtraction
 //? 3. multiplication

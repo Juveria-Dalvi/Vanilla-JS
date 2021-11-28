@@ -1,10 +1,11 @@
-						Identifier in JavaScript 
+		----- Identifier in JavaScript ----
 /*
 An Identifier is a name having a few letters , numbers and special characters _(underscores).
 It is used to identify a variable , function , symbolic constant and so on.
 */
 
-						Variables in JavaScript
+
+		---- Variables in JavaScript ----
 /* 
 A variable is an identifier or a name which is used to refer a value. A variable is written
 with a combination of letters, numbers and special characters $(dollar) and _(underscore) with the first letter being an alphabet.
@@ -29,7 +30,8 @@ console.log(channel);
 //! In const , you Cannot declare variable as undefined it gives error
 const fruits;
 
-						Declaring Variables
+
+		---- Declaring Variables -----
 /*
 A variable declared without a value will have the value undefined
 
@@ -39,7 +41,8 @@ Ex :-
 		let yourclass;
 		const OurSchool;
 
-						Initializing Variables
+
+		----- Initializing Variables ----
 /*
 storing a value to the variable or assigning the value in variable
 */
@@ -51,18 +54,20 @@ Ex :-
 
 		const RollNumber = 10;// direct Declare & Initialize
 
-					Rules for creating Variables
-/*
+
+		----- Rules for creating Variables ------
+
 1 - Variable can contain combination of letters, digits, underscore(_) and dollar sign($).
 2 - Must begin with letter A-Z/a-z or underscore/dollor.
 3 - A variable name cannot start with a number.
 4 - Must not contain any emptyspace in characters.
 5 - JavaScript is case-sensitive , Uppercase "Dog" !=(not equal too) lowercase "dog".
 6 - Can't use Reserved Keywords.
-*/
- Google "Reserved Keywords in JavaScript" 
 
- 						MOST COMMOM PROGRAMMING CASE TYPE:
+//  Google "Reserved Keywords in JavaScript" or look into images folder for image
+
+ 
+ 		---- MOST COMMOM PROGRAMMING CASE TYPE: -----
 //* 1. camelCase
 //* 2. kabab-case
 //* 3. snake_case
