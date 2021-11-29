@@ -12,5 +12,6 @@
 
 - [FreeCodeCamp- Responsive Webdesign](https://www.freecodecamp.org/learn/responsive-web-design/)
 - [Codewithharry-Web-development playlist](http://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg)
-- [Traversymedia- Flexbox & Grid](https://youtu.be/JJSoEo8JSnc)(https://youtu.be/jV8B24rSN5o)
+- [Traversymedia- Flexbox](https://youtu.be/JJSoEo8JSnc)
+- [Traversymedia- Grid](https://youtu.be/jV8B24rSN5o)
 - [Thapa Technical- em,rem units](https://youtu.be/VQpd3IolojM)
