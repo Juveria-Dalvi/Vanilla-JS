@@ -14,3 +14,10 @@
 - [Dev ed- Flexbox](https://youtu.be/FTlczfR82mQ)
 - [Traversymedia- Grid](https://youtu.be/jV8B24rSN5o)
 - [Thapa Technical- em,rem units](https://youtu.be/VQpd3IolojM)
+
+> <h2>GIT</h2>
+- [FCC - basic to advanced git](https://youtu.be/RGOj5yH7evk) 
+- [Git | Codewithharry](https://youtube.com/playlist?list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi)
+
+> <h2>Sass</h2>
+- [Sass | traversymedia](https://youtu.be/nu5mdN2JIwM)
