@@ -69,13 +69,17 @@ let undef = undefined;
 console.log("My Data Type is " + typeof undef);
 
 
+
+
 Reference Data Types -   
 	1.Arrays, 
 	2.Objects, 
 	3.Functions, 
 	4.Dates.
 
+
 ---- Array ----
+//Arrays are mutable unlike Strings
 // StringArray
 let listItems=['apple','mango','cherry'];
 console.log(listItems);
@@ -91,6 +95,74 @@ console.log("My Data Type is " + typeof myArr1);
 //new Array() ,will create the same array with keyword 'new Array' and in '()'
 const arr = new Array(`ball`, `pencil`, 34, 23, `duck`);
 console.log(arr);
+
+
+---- Array Methods ----
+Push () //add to end
+Pop () //remove from end
+Shift () //remove from start
+Unshift () //add to start
+
+Example :
+let shapes = ['square','circle','triangle','rectangle']
+console.log(shapes); //['square','circle','triangle','rectangle']
+
+//add to end
+shapes.push('moon'); //['square','circle','triangle','rectangle','moon']
+
+//remove from end
+shapes.pop();//['square','circle','triangle','rectangle']
+
+//remove from start
+shapes.shift('square');//['circle','triangle','rectangle']
+
+//add to start
+shapes.unshift('New Square');//['New Square','circle','triangle','rectangle']
+
+
+----- More Methods ! -----
+concat //merge arrays
+includes //looks for a value
+indexOf // just like str.indexOf
+join //creates a string from arr
+reverse // reverses an array
+slice // copy portion of an arr
+splice //remove\replace elements
+sort //sorts an array
+
+Example :
+//concatinating arrays
+let fruits = ['apple','mango','banana'];
+let veggies = ['potato','tomato'];
+let seaFood = ['fried fish',' gold fish'];
+console.log(fruits.concat(veggies));//['apple','mango','banana','potato','tomato']
+console.log(veggies.concat(fruits));//['potato','tomato','apple','mango','banana']
+let allFood = fruits.concat(veggies,seaFood);
+//['apple','mango','banana','potato','tomato','fried fish',' gold fish']
+
+Example :
+//includes (checks if somthing is there in array or not) returns true or false
+let ingredients = [
+	'water',
+	'juice',
+	'flour',
+	'cheese',
+	'butter'
+];
+console.log(ingredients.includes('fish'))// False
+
+//indexOf (returns index number ,position number)
+console.log(ingredients.indexOf('cheese')) // 3
+
+Example :
+// reverse 
+let letters =['D','E','S','R','E','V','E','R'];
+console.log(letters.reverse()); //['R','E','V','E','R','S','E','D']
+
+// join (always returns a string)
+console.log(letters.join(' ')); //"R E V E R S E D"
+console.log(letters.join('-')); //"R-E-V-E-R-S-E-D"
+console.log(letters.join(' | ')); //"R | E | V | E | R | S | E | D"
 
 ----- Object-literals ----
 let myMarks = {
@@ -110,16 +182,7 @@ let date = new Date();
 console.log("My Data Type is " + typeof date);
 
 
-		---- Comments in JAVASCRIPT ------
-			
-	// 2 forward slash for single line comment 
-
-	/*
-	this 
-	is
-	multi
-	line comment
-	*/
+	
 
 		---- TYPE CONVERSION AND TYPE COERCION & OPERATORS ----
 	
@@ -148,11 +211,11 @@ console.log("My Data Type is " + typeof date);
 	
 	//* Number() function
 	let myNum = Number(`20`);
-	// myNum = Number([1, 2, 3, 4, 5]);
-	// myNum = Number(`23ref`); will give NAN if it is mixture of num, char or if it is an array
-	// myNum = Number(true);
-	//* true = 1 false = 0
-	// console.log(myNum, typeof myNum);
+	myNum = Number([1, 2, 3, 4, 5]);
+	myNum = Number(`23ref`); will give NAN if it is mixture of num, char or if it is an array
+	myNum = Number(true);
+	* true = 1 false = 0
+	console.log(myNum, typeof myNum);
 	
 
 		---- parseInt and parseFloat function ----
@@ -204,10 +267,10 @@ console.log("My Data Type is " + typeof date);
 	const digit = " "
 	const text = 123
 	//* NAN = not a number 
-	// console.log(Number(digit))
-	// console.log(parseInt(digit))
-	// console.log(parseFloat(digit))
+	console.log(Number(digit))
+	console.log(parseInt(digit))
+	console.log(parseFloat(digit))
 	
-	// console.log(String(100 + 23))
-	// console.log(text.toString())
+	console.log(String(100 + 23))
+	console.log(text.toString())
 	

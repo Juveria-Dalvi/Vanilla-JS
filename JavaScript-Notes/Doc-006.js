@@ -33,6 +33,7 @@ console.log(html.replace('my', 'the'));
 
 
 
+
 ---- TEMPLATE LITERALS IN JAVASCRIPT ----
 let tutor = `Haris khan`;
 let channel = `Codewithharry: Web-development playlist`;

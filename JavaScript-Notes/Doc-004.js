@@ -10,3 +10,13 @@ Ex :- var myName="Rahul", myAge=20, Result = true;
 			myAge = 20,
 			Result = true; //end with semi-colon
 
+			---- Comments in JAVASCRIPT ------
+			
+			// 2 forward slash for single line comment 
+		
+			/*
+			this 
+			is
+			multi
+			line comment
+			*/
