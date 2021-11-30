@@ -2,7 +2,7 @@
 
 //* javascript operators 
 
-                JavaScript Comparison Operators
+---- JavaScript Comparison Operators -----
 //* (==) equal to
 //* (===) equal value and equal type
 //* (!=) not equal
@@ -15,31 +15,31 @@
 
 
 
-                 JavaScript Logical Operators
-&&	logical and
-||	logical or
-!	logical not
+---- JavaScript Logical Operators ----
+// &&	logical and
+// ||	logical or
+// !	logical not
 
 
 
-                 Operators in JavaScript
+---- Operators in JavaScript ----
 // Operand - entities on which operators operate
 // In 3 + 4 '+' is the operator and 3,4 are operand
 
  1. unary operator - It has single operand ( x = - x)
 //* EXAMPLE OF UNARY OPERATOR
-// a = -a;
-// console.log(a);
+a = -a;
+console.log(a);
 
  2. binary operator -  It has two operand ( x = x + 2)
 //* EXAMPLE OF BINARY OPERATOR
-// a = 3 + 5;
-// console.log(a);
+a = 3 + 5;
+console.log(a);
 
-// var num1 = 2;
-// var num2 = 3;
+var num1 = 2;
+var num2 = 3;
 
-                ARITHEMATIC OPERATORS in action in JavaScript
+----- ARITHEMATIC OPERATORS in action in JavaScript ----
 //? 1. addition
 //? 2. subtraction
 //? 3. multiplication
@@ -49,15 +49,32 @@
 //? 7. increment
 //? 8. decrement
 
-// console.log("The  value of num1 + num2 is " + (num1 + num2));
-// console.log("The  value of num1 - num2 is " + (num1 - num2));
-// console.log("The  value of num1 * num2 is " + (num1 * num2));
-// console.log("The  value of num1 / num2 is " + (num1 / num2));
-// console.log("The  value of num1 % num2 is " + (num1 % num2));
-// console.log("The  value of num1 ** num2 is " + (num1 ** num2));
-// console.log("The  value of num1 ++ is " +( num1++));
-// console.log("The  value of num1 -- is " + (num1--));
-// console.log("The  value of ++num1  is " + (++num1));
-// console.log("The  value of --num1  is " + (--num1));
+console.log("The  value of num1 + num2 is " + (num1 + num2));
+console.log("The  value of num1 - num2 is " + (num1 - num2));
+console.log("The  value of num1 * num2 is " + (num1 * num2));
+console.log("The  value of num1 / num2 is " + (num1 / num2));
+console.log("The  value of num1 % num2 is " + (num1 % num2));
+console.log("The  value of num1 ** num2 is " + (num1 ** num2));
+console.log("The  value of num1 ++ is " +( num1++));
+console.log("The  value of num1 -- is " + (num1--));
+console.log("The  value of ++num1  is " + (++num1));
+console.log("The  value of --num1  is " + (--num1));
 
 
+----- Operator Precedence ----
+NOT (!) operator has higher precedence than AND (&&) and OR (||),
+AND(&&) has higher precedence than OR (||)
+
+    (!       &&      ||)
+
+    Ex :
+    let x=7;
+    if(x==7 || x === 3 && x > 10)
+     // True||(False && False)
+    // True || (False) 
+// Output : TRUE 
+    {
+        console.log("Higher precedence will execute first")
+    }
+
+// Note: MDN has a table chart of operators & their precedence

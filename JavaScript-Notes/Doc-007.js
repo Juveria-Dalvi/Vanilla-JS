@@ -1,7 +1,7 @@
-						 ARRAYS AND OBJECTS IN JAVASCRIPT
+***** ARRAYS AND OBJECTS IN JAVASCRIPT *****
 
 
- 				ARRAYS methods and properties
+---- ARRAYS methods and properties ----
 
 let marks = [54, 67, 23, 54, 98, 65];
 console.log(marks);
@@ -16,7 +16,7 @@ const mixedArray = [`rahul`, 54, true, `54`, [1, 2, 3, 5]];
 console.log(mixedArray);
 
 
-					ARRAY CONSTRUCTOR
+---- ARRAY CONSTRUCTOR -----
 
 const arr = new Array(`ball`, `pencil`, 34, 23, `duck`);
 console.log(arr[0]);
@@ -30,7 +30,7 @@ let arrElement = arr[4];
 console.log('element :', arrElement);
 
 
- 					MUTATING OR MODIFYING ARRAYS
+---- MUTATING OR MODIFYING ARRAYS -----
 
 //! Below Methods changes original arrays
 marks.push(2000);
@@ -50,7 +50,7 @@ marks = marks.concat(marks2);
 console.log(marks);
 
 
-					OBJECT'S methods and properties
+---- OBJECT'S methods and properties ----
 
 
 let myObj = {

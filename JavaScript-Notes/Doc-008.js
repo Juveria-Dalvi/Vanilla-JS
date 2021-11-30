@@ -83,7 +83,7 @@ if (doesDrive) {
 
 }
 
-//* example :- boolean variable with && and ||,[AND , OR]
+---- example :- boolean variable with && and ||,[AND , OR] ---
 // 1- AND(&&)
 
 EXAMPLE :
@@ -139,102 +139,125 @@ else {
 }
 // ********************************************************
 
-//* example :- TERNARY OPERATOR [condition? 'true' : 'false']
-console.log(age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
 
 
-//* example :- SWITCH STATEMENTS
+---- example :- SWITCH STATEMENTS ----
 // It is case-sensitive
 
-syntax : 
-switch(expression){
-
-	case expression 1:
-		block of statement 1;
-		break;
-	case expression 2:
-		block of statement 2;
-		break;
-	case expression 3:
-		block of statement 3;
-		break;
-	.
-	.
-	.
-	default:
-		default block of instructions;
-}
-
-
-
-Example :
-
-let myAge=18;
-switch (myAge) {
+// syntax : 
+// switch(expression){
+	
+	// 	case expression 1:
+	// 		block of statement 1;
+	// 		break;
+	// 	case expression 2:
+	// 		block of statement 2;
+	// 		break;
+	// 	case expression 3:
+	// 		block of statement 3;
+	// 		break;
+	// 	.
+	// 	.
+	// 	.
+	// 	default:
+	// 		default block of instructions;
+	// }
+	
+	
+	
+	Example :
+	
+	let myAge=18;
+	switch (myAge) {
 	case 18:
 		console.log(`You are teenager!`);
 		break;
-	case 25:
-		console.log(`You are Adult!`);
-		break;
-	case 58:
-		console.log(`You are too old!`);
-		break;
-
-		default:
-		console.log(`What is your age?`);
-}
-
-Example :
-
-let weekdays=prompt("Enter Number between 1-7 to display weekdays");
-switch (myAge) {
-	case 1:
+		case 25:
+			console.log(`You are Adult!`);
+			break;
+			case 58:
+				console.log(`You are too old!`);
+				break;
+				
+				default:
+					console.log(`What is your age?`);
+				}
+				
+				Example :
+				
+				let weekdays=prompt("Enter Number between 1-7 to display weekdays");
+				switch (myAge) {
+					case 1:
 		document.write("Sunday");
 		break;
-	case 2:
-		document.write("Monday");
-		break;
+		case 2:
+			document.write("Monday");
+			break;
 	case 3:
 		document.write("Tuesday");
 		break;
 	case 4:
 		document.write("Wednesday");
 		break;
-	case 5:
-		document.write("Thursday");
-		break;
-	case 6:
-		document.write("Friday");
-		break;
+		case 5:
+			document.write("Thursday");
+			break;
+			case 6:
+				document.write("Friday");
+				break;
 	case 7:
 		document.write("Saturday");
 		break;
-
+		
 		default:
-		document.write("Invalid Number");
-}
-
-Example :
-// if you have same value for multiple statements
-
-var officeDays= "Sunday"
+			document.write("Invalid Number");
+		}
+		
+		Example :
+		// if you have same value for multiple statements
+		
+		var officeDays= "Sunday"
 switch (officeDays) {
 	case "Monday":
 		document.write("Working Day");
 		break;
-	case "Tuesday":
-		document.write("Working Day");
-		break;
-	case "Saturday":
+		case "Tuesday":
+			document.write("Working Day");
+			break;
+			case "Saturday":
 	case "Sunday":
 		document.write("Holiday");
 		break;
 		default:
 		document.write(Wrong input);
-}
+	}
+	
+	/* NOTE : 
+	1] all the statements will be evaluated if you don't use break statements 
+	2] expressions are case sensitive
+	*/
+	
+	---- Nesting Conditions ----
+	Example :
+	let password = "diwhdfuiw231";
+	if (password.length >= 6) {
+		if (password.indexOf(' ') === -1) {
+			console.log("Valid Password");
+		}
+		else{
+			console.log("Password cannot contain spaces");
+		}
+	}
+	else{
+		console.log("Password Must be longer!");
+	}
 
-/* NOTE : 
-1] all the statements will be evaluated if you don't use break statements 
-2] expressions are case sensitive
-*/
+
+	----  TERNARY OPERATOR [condition? 'true' : 'false';] ---
+	example :-
+	console.log(age >= 45 ? 'Age is greater then 45' : 'Age is not greater than 45');
+
+	Example :
+	let status ='offline';
+	let color = status === 'offline'? 'red' : ' green';
+						// condition? ifTrue : ifFalse;

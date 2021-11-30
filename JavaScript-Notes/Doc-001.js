@@ -1,17 +1,17 @@
- Introduction to what is Ecma & Versions of JavaScript
+ ---- Introduction to what is Ecma & Versions of JavaScript ----
 // https://www.ecma-international.org/
 // EcmaScript
 // ES5
 // ES6
 // ...
- Introduction to JavaScript -
+---- Introduction to JavaScript -----
     // 1) JS is client-side Scripting Language.
     // 2) It was first named as 'Mocha' , then renamed to "LiveScript".
     // 3) Java was popular at that time , so it was decided that positioning a language as a "YOUNGER BROTHER" of JAVA would help, so it was again renamed to "JavaScript".
     // 4) Java and JavaScript are totally different Programming Language.
 
 
-    "INTERNAL-WAY" TO LINK JavaScript -
+---- "INTERNAL-WAY" TO LINK JavaScript ----
 
 < !DOCTYPE html >
     <html lang="en">
@@ -31,7 +31,7 @@
                 </html>
 
 
-    "EXTERNAL-WAY" TO LINK JavaScript-
+---- "EXTERNAL-WAY" TO LINK JavaScript ----
 
     <!DOCTYPE html>
         <html lang="en">
@@ -51,7 +51,7 @@
         </html>
 
 
-                {/* // write() - function in JavaScript */}
+----- write() - function in JavaScript -----
      document.write();
      // This Function is Used to write arbitary HTML and content into page, If we use this function on fully loaded HTML document it will delete exixting HTML. IT is used only for testing purpose.
 
@@ -69,7 +69,7 @@
 
 
 
-                { /* alert() - function in JavaScript */}
+----- alert() - function in JavaScript -----
     window.alert();
     // This function is used to display data in alret dialog box. alert really Should be only used when you truly want  to stop everything and let the user know something
 
@@ -87,52 +87,53 @@
 
 
 
-        ---- CONSOLE LOG , ERROR , WARNINGS, POPUP BOXES AND MORE -----
+---- CONSOLE LOG , ERROR , WARNINGS, POPUP BOXES AND MORE -----
 
-            //* time start
-            console.time('Your code took');
+time start =>
+    console.time('Your code took');
 
-            //* String
-            console.log('DJ');
+String =>
+    console.log('DJ');
 
-            //* Number
-            console.log(20);
+ Number =>
+    console.log(20);
 
-            //* Boolean
-            console.log(true);
+ Boolean =>
+    console.log(true);
 
-            //* Array
-            console.log([23, 45, 6521, 56]);
+ Array =>
+    console.log([23, 45, 6521, 56]);
 
-            //* Mixed Array
-            console.log([23, 45, 'harry', false]);
+ Mixed Array =>
+    console.log([23, 45, 'harry', false]);
 
-            //* Object
-            console.log({
-                harry: 'world',
-                marks: 43
+ Object =>
+    console.log({
+        harry: 'world',
+        marks: 43
             });
 
-            //*  Table in object
-                console.table({
-                harry: 'world',
-                marks: 43
+ Table in object =>
+    console.table({
+        harry: 'world',
+        marks: 43
             });
 
-            //* Warning
-            console.warn('This is warning');
+ time end =>
+    console.timeEnd('Your code took');
 
-            //* Error
-            console.error('This is an error');
+   ---- Warning -----
+        console.warn('This is warning');
 
-            //* Assert
-            console.assert(18 < 14, `age < 18 ,You can't drive`);
+   ----- Error -----
+        console.error('This is an error');
 
-            //* time end
-            console.timeEnd('Your code took');
+    ----- Assert -----
+        console.assert(18 < 14, `age < 18 ,You can't drive`);
 
-            //* will clear console
-            console.clear();
+
+will clear console
+    console.clear();
 
 
         ----- JavaScript Popup Boxes -----

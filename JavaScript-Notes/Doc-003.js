@@ -76,8 +76,21 @@ Reference Data Types -
 	4.Dates.
 
 ---- Array ----
+// StringArray
+let listItems=['apple','mango','cherry'];
+console.log(listItems);
+
+// Numbers Array
+let num = [12,432,2131,12,78];
+console.log(num);
+
+// mixedArray
 let myArr1 = [23, 34, 76, `DJ`, 'FEM', 'mixedarray', true];
 console.log("My Data Type is " + typeof myArr1);
+
+//new Array() ,will create the same array with keyword 'new Array' and in '()'
+const arr = new Array(`ball`, `pencil`, 34, 23, `duck`);
+console.log(arr);
 
 ----- Object-literals ----
 let myMarks = {
